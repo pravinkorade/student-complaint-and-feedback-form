@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Student Complaint Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+"   <link rel="stylesheet" type="text/css" href="complaint.css">
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="./">
+       <center><h1><b>Complaint Form</b></h1>
+       <p><h2> Please fill out the following form with your complaint.
+            We will review your request & follow up with you as soon as possible.</h2></p></center>
+        <h3>Personal Information</h3>
+        <div class="item">
+          <p>Your Full Name (As Enrolled)</p>
+          <div class="name-item">
+            <input type="text" name="name" placeholder="Enter Your First Name." />
+            <input type="text" name="name" placeholder="Enter Your Last Name." />
+          </div>
+        </div>
+        <div class="item">
+          <p>Email</p>
+          <input type="text" name="name" placeholder="abc@gmail.com"/><br>
+          <p>Phone</p>
+          <input type="text" name="name" placeholder="Enter your phone number."/>
+        </div>
+        <div class="item preferred-metod">
+          <p>Preferred method of contact</p>
+          <div class="preferred-metod-item">
+            <label><input type="checkbox" name="name"> <span>Email</span></label>
+            <label><input type="checkbox" name="name"> <span>Phone</span></label>
+     
+          </div>
+        </div>
+        <h3>Information about your complaint</h3>
+        <div class="item">
+          <p>First date on which the events or issues occurred</p>
+          <input type="date" name="name" required/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+          <p>Name of the person against which the complaint is filled:</p>
+          <textarea rows="2" style="color: azure;" ></textarea>
+        </div>
+        <div class="item">
+          <p>Please describe your complaint in detail. Include the names of persons, locations, and dates involved. If this complaint is against specific person(s), please list their names and titles</p>
+          <textarea rows="5" style="color: azure;"></textarea>
+        </div>
+        <div class="item">
+          <p>Any other information you want to provide?</p>
+          <textarea rows id="5" style="color: azure;"></textarea>
+        </div>
+        <div class="btn-block">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
